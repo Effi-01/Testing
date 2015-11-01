@@ -55,11 +55,11 @@ except:
         except: 
             print traceback.print_exc()
             print 'android copy not available'    
-            from utils import python_aes
+            from f4mUtils import python_aes
             print 'using slow decryption'  
     else:
         print 'using slow decryption'  
-        from utils import python_aes
+        from f4mUtils import python_aes
 
 
 value_unsafe = '%+&;#'
